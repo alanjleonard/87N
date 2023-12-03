@@ -1,0 +1,32 @@
+main {
+  margin: 0 auto;
+  max-width: 96rem;
+  section {
+    background: $primary;
+    div{
+      background: rgb(192, 192, 192, 0.3);
+    }
+    h2 {
+      // font-size: clamp()
+    }
+    h3 {
+      font-size: larger;
+      margin-bottom: 0;
+    }
+    p {
+      margin: 0;
+    }
+    ul {
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      li {
+        flex-grow: 1;
+        text-align: center;
+        border: solid 1px;
+        padding: 0.5rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "items": [
+    {
+      "section": {
+        "title": "Water",
+        "items": [
+          {
+            "name": "Hamilton's Finest",
+            "descp": "Just tap water.",
+            "list": ["Lemon", "Ice", "Cucumber"]
+          },
+          {
+            "name": "Fizzers",
+            "descp": "Fizzy water in cans",
+            "list": ["Usually grapefruit", "or orange"]
+          },
+          {
+            "name": "AL's BEST Water",
+            "descp": "1 liter of the best icy lemon water you've ever had. Guaranteed."
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Bevvies",
+        "items": [
+          {
+            "name": "Beer",
+            "list": [
+              "Probably Steam Whistles (steamies)",
+              "Assorted tall cans in the fridge"
+            ]
+          },
+          {
+            "name": "Wine",
+            "list": [
+              "Usually some Sibling Rivalry",
+              "Maybe some white in the fridge"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Coffee",
+        "items": [
+          {
+            "name": "Espresso",
+            "list": ["Short", "Long"]
+          },
+          {
+            "name": "Long Black",
+            "descp": "Like a small Americano",
+            "iced": true
+          },
+          {
+            "name": "Americano",
+            "descp": "Like a bigger Long Black",
+            "iced": true
+          },
+          {
+            "name": "Pour Over"
+          },
+          {
+            "name": "Bodum",
+            "descp": "What I call a French Press"
+          },
+          {
+            "name": "Latte",
+            "iced": true
+          },
+          {
+            "name": "Cortado"
+          },
+          {
+            "name": "Flat White"
+          },
+          {
+            "name": "Cappuccino"
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Tea",
+        "items": [
+          {
+            "name": "Tea Tea",
+            "list": ["Regular (orange pekoe)", "Green", "Oolong"]
+          },
+          {
+            "name": "Herbal",
+            "list": [
+              "Licorice",
+              "Peppermint",
+              "Ginger",
+              "Probably some other ones too"
+            ]
+          },
+          {
+            "name": "Matcha Latte",
+            "iced": true
+          }
+        ]
+      }
+    }
+  ]
+}

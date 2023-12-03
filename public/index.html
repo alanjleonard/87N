@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/css/main.css" />
+    <title>Butt-First Coffee</title>
+  </head>
+  <body>
+    <h1>eighty seven north</h1>
+    <main id="menu"></main>
+    <script id="template" type="text/x-handlebars-template">
+      {{#each items}}
+        <section>
+          <h2>{{this.section.title}}</h2>
+          {{#each this.section.items}}
+            <div>
+              <h3>{{this.name}}</h3>
+              {{#if this.descp}}
+                <p>{{this.descp}}</p>
+              {{/if}}
+              {{#if list}}
+                <ul>
+                  {{#each list}}
+                    <li>{{this}}</li>
+                  {{/each}}
+                </ul>
+              {{/if}}
+            </div>
+          {{/each}}
+        </section>
+      {{/each}}
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
