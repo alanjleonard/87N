@@ -8,11 +8,12 @@ $line-height: 1;
 // COLOURS
 $background: hsl(208,39,10);
 $primary: hsl(20 50 40);
-$black:$background;
-// $black: #31383a;
+$black: #31383a;
 $white: #fdfefa;
 $light-white: #fdfefa88;
-$s1: $black;
+$text-color: $white;
+$light-text-color: $light-white;
+$s1: $background;
 $s2: $light-white;
 // SPACING
 $spacing: 0.75rem;

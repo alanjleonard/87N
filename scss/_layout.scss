@@ -1,6 +1,10 @@
 body,
 html {
-  background: $black;
+  background: $background;
+  background-image: url("/images/bg.png");
+  background-size: 40rem;
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 h1 {
   text-align: center;
@@ -13,7 +17,7 @@ h1 {
   top: 100vh;
   height: $left-bar;
   margin: 0;
-  background: $black;
+  // background: black;
   color: $light-white;
   // border-bottom: dashed 2px $light-white;
   &::after {
@@ -48,21 +52,15 @@ main {
     }
     h2 {
       margin: 0;
-      padding: $big-spacing;
+      padding: $spacing;
       span {
         background-color: $black;
-        margin: 0 auto;
         display: inline-block;
-        height: 100%;
         color: $light-white;
         padding: $spacing $big-spacing;
       }
       @include stripes;
       background-attachment: fixed;
-      border-style: solid;
-      border-width: 0px 0;
-      border-color: $white;
-      color: $white;
       margin: 2px 0;
     }
     h3 {
