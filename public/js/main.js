@@ -1,3 +1,4 @@
+// fetch("./js/menu.json")
 fetch("./js/menu.json")
   .then((response) => response.json())
   .then((data) => {

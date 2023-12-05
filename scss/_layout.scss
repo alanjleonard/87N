@@ -17,9 +17,10 @@ h1 {
   top: 100vh;
   height: $left-bar;
   margin: 0;
-  // background: black;
-  color: $light-white;
-  // border-bottom: dashed 2px $light-white;
+  color: $light-text-color;
+  span {
+    color: $text-color;
+  }
   &::after {
     position: absolute;
     content: "";
@@ -27,6 +28,7 @@ h1 {
     left: -1px;
     width: 100vh;
     height: 5px;
+    background-size: 10px 10px;
     background-image: linear-gradient(
       -45deg,
       $s1 25%,
@@ -36,27 +38,22 @@ h1 {
       $s1 75%,
       $s2 75%
     );
-    background-size: 10px 10px;
-  }
-  span {
-    color: $white;
   }
 }
 main {
   margin: 0 auto 0 $left-bar;
-  max-width: 40rem;
+  max-width: $max-width;
   section {
-    margin: $big-spacing 0;
     div {
-      margin: $big-spacing * 2 0;
+      margin: $big-spacing * 5 0;
     }
     h2 {
       margin: 0;
       padding: $spacing;
       span {
-        background-color: $black;
+        background-color: $background;
         display: inline-block;
-        color: $light-white;
+        color: $light-text-color;
         padding: $spacing $big-spacing;
       }
       @include stripes;
@@ -64,22 +61,22 @@ main {
       margin: 2px 0;
     }
     h3 {
-      color: $white;
+      color: $text-color;
       padding: $big-spacing;
       margin: 0px 0;
     }
     p {
-      margin: 0 $big-spacing $spacing $big-spacing;
+      padding: 0 $big-spacing $spacing $big-spacing;
       font-size: 1.6rem;
-      color: $light-white;
+      color: $light-text-color;
       border-style: dotted;
       border-width: 0 0 2px 0;
-      border-color: $light-white;
+      border-color: $light-text-color;
     }
     ul {
       list-style-type: "\27bd";
       li {
-        color: $light-white;
+        color: $light-text-color;
         font-size: 2rem;
         margin: $spacing 0;
       }
@@ -89,10 +86,10 @@ main {
 
 footer {
   margin: 0 auto 0 $left-bar;
-  max-width: 40rem;
+  max-width: $max-width;
   padding: $big-spacing;
   p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   svg {
     width: 40px;
@@ -100,7 +97,7 @@ footer {
     z-index: 99;
     left: 4.2rem;
     bottom: 10px;
-    color: $white;
+    color: $text-color;
     transform: rotate(-90deg);
   }
 }

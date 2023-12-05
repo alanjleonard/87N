@@ -1,16 +1,19 @@
-*, *:before, *:after {
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 // TYPO
 $font-size: 2.5rem;
 $line-height: 1;
 
 // COLOURS
-$background: hsl(208,39,10);
-$primary: hsl(20 50 40);
+$background: hsl(208, 19, 15);
+$primary: hsl(0, 59, 40);
 $black: #31383a;
 $white: #fdfefa;
-$light-white: #fdfefa88;
+// $light-white: #fdfefa88;
+$light-white: #949798;
 $text-color: $white;
 $light-text-color: $light-white;
 $s1: $background;
@@ -19,15 +22,20 @@ $s2: $light-white;
 $spacing: 0.75rem;
 $big-spacing: $spacing * 2;
 $left-bar: 6.5rem;
+$max-width: 60rem;
 
 //OTHER
 $border-radius: 10px;
 
-@mixin boxShadow($color,$inset){
-   box-shadow: 5px 5px 0px mix($color, black) #{$inset};
-
-}
-@mixin stripes(){
-  background-image: linear-gradient(45deg, $s1 25%, $s2 25%, $s2 50%, $s1 50%, $s1 75%, $s2 75%); 
+@mixin stripes() {
+  background-image: linear-gradient(
+    45deg,
+    $s1 25%,
+    $s2 25%,
+    $s2 50%,
+    $s1 50%,
+    $s1 75%,
+    $s2 75%
+  );
   background-size: 10px 10px;
 }

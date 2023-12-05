@@ -7,7 +7,7 @@
           {
             "name": "Hamilton's Finest",
             "descp": "Just tap water.",
-            "list": ["Lemon", "Ice", "Cucumber"]
+            "list": ["Lemon", "Ice"]
           },
           {
             "name": "Fizzers",
@@ -102,7 +102,7 @@
           {
             "name": "Tea Tea",
             "descp": "Actually tea",
-            "list": ["Regular (orange pekoe)", "Green", "Oolong"]
+            "list": ["Regular (orange pekoe)", "Green"]
           },
           {
             "name": "Herbal",
@@ -116,7 +116,7 @@
           },
           {
             "name": "Matcha Latte",
-            "descp": "Fancy ground green tea and steamed milk",
+            "descp": "Ground up green tea and steamed milk (<em>V fancy</em>)",
             "iced": true
           }
         ]
