@@ -97,11 +97,12 @@ footer {
     font-size: 1.1rem;
   }
   svg {
+    width: 40px;
     position: fixed;
     z-index: 99;
-    left: 5.2rem;
+    left: 4.2rem;
     bottom: 10px;
-    color: $light-white;
+    color: $white;
     transform: rotate(-90deg);
   }
 }

@@ -27,6 +27,7 @@
         "items": [
           {
             "name": "Beer",
+            "descp": "Fermented barley and hops",
             "list": [
               "Probably Steam Whistles (steamies)",
               "Assorted tall cans in the fridge"
@@ -34,6 +35,7 @@
           },
           {
             "name": "Wine",
+            "descp": "Old grapes",
             "list": [
               "Usually some Sibling Rivalry",
               "Maybe some white in the fridge"
@@ -48,6 +50,7 @@
         "items": [
           {
             "name": "Espresso",
+            "descp": "Just a little coffee",
             "list": ["Short", "Long"]
           },
           {
@@ -61,10 +64,12 @@
             "iced": true
           },
           {
-            "name": "Pour Over"
+            "name": "Pour Over",
+            "descp": "Hot water <em>poured over</em> coffee"
           },
           {
-            "name": "Instant"
+            "name": "Instant",
+            "descp": "I don't know why"
           },
           {
             "name": "Bodum",
@@ -72,16 +77,20 @@
           },
           {
             "name": "Latte",
+            "descp": "coffee and steamed milk",
             "iced": true
           },
           {
-            "name": "Cortado"
+            "name": "Cortado",
+            "descp": "coffee and steamed milk"
           },
           {
-            "name": "Flat White"
+            "name": "Flat White",
+            "descp": "coffee and steamed milk"
           },
           {
-            "name": "Cappuccino"
+            "name": "Cappuccino",
+            "descp": "coffee and steamed milk"
           }
         ]
       }
@@ -92,10 +101,12 @@
         "items": [
           {
             "name": "Tea Tea",
+            "descp": "Actually tea",
             "list": ["Regular (orange pekoe)", "Green", "Oolong"]
           },
           {
             "name": "Herbal",
+            "descp": "Not technically tea",
             "list": [
               "Licorice",
               "Peppermint",
@@ -105,6 +116,7 @@
           },
           {
             "name": "Matcha Latte",
+            "descp": "Fancy ground green tea and steamed milk",
             "iced": true
           }
         ]
