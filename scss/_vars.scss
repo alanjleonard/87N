@@ -6,6 +6,27 @@ $font-size: 2.5rem;
 $line-height: 1;
 
 // COLOURS
-$black: #31383a;
-$white: #fdfefa;
+$background: hsl(208,39,10);
 $primary: hsl(20 50 40);
+$black:$background;
+// $black: #31383a;
+$white: #fdfefa;
+$light-white: #fdfefa88;
+$s1: $black;
+$s2: $light-white;
+// SPACING
+$spacing: 0.75rem;
+$big-spacing: $spacing * 2;
+$left-bar: 6.5rem;
+
+//OTHER
+$border-radius: 10px;
+
+@mixin boxShadow($color,$inset){
+   box-shadow: 5px 5px 0px mix($color, black) #{$inset};
+
+}
+@mixin stripes(){
+  background-image: linear-gradient(45deg, $s1 25%, $s2 25%, $s2 50%, $s1 50%, $s1 75%, $s2 75%); 
+  background-size: 10px 10px;
+}

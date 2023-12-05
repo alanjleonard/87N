@@ -1,32 +1,107 @@
+body,
+html {
+  background: $black;
+}
+h1 {
+  text-align: center;
+  white-space: nowrap;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  position: fixed;
+  left: 0px;
+  width: 100vh;
+  top: 100vh;
+  height: $left-bar;
+  margin: 0;
+  background: $black;
+  color: $light-white;
+  // border-bottom: dashed 2px $light-white;
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: -1px;
+    width: 100vh;
+    height: 5px;
+    background-image: linear-gradient(
+      -45deg,
+      $s1 25%,
+      $s2 25%,
+      $s2 50%,
+      $s1 50%,
+      $s1 75%,
+      $s2 75%
+    );
+    background-size: 10px 10px;
+  }
+  span {
+    color: $white;
+  }
+}
 main {
-  margin: 0 auto;
-  max-width: 96rem;
+  margin: 0 auto 0 $left-bar;
+  max-width: 40rem;
   section {
-    background: $primary;
-    div{
-      background: rgb(192, 192, 192, 0.3);
+    margin: $big-spacing 0;
+    div {
+      margin: $big-spacing * 2 0;
     }
     h2 {
-      // font-size: clamp()
+      margin: 0;
+      padding: $big-spacing;
+      span {
+        background-color: $black;
+        margin: 0 auto;
+        display: inline-block;
+        height: 100%;
+        color: $light-white;
+        padding: $spacing $big-spacing;
+      }
+      @include stripes;
+      background-attachment: fixed;
+      border-style: solid;
+      border-width: 0px 0;
+      border-color: $white;
+      color: $white;
+      margin: 2px 0;
     }
     h3 {
-      font-size: larger;
-      margin-bottom: 0;
+      color: $white;
+      padding: $big-spacing;
+      margin: 0px 0;
     }
     p {
-      margin: 0;
+      margin: 0 $big-spacing $spacing $big-spacing;
+      font-size: 1.6rem;
+      color: $light-white;
+      border-style: dotted;
+      border-width: 0 0 2px 0;
+      border-color: $light-white;
     }
     ul {
-      padding: 0;
-      list-style: none;
-      display: flex;
-      justify-content: space-between;
+      list-style-type: "\27bd";
       li {
-        flex-grow: 1;
-        text-align: center;
-        border: solid 1px;
-        padding: 0.5rem;
+        color: $light-white;
+        font-size: 2rem;
+        margin: $spacing 0;
       }
     }
+  }
+}
+
+footer {
+  margin: 0 auto 0 $left-bar;
+  max-width: 40rem;
+  padding: $big-spacing;
+  p {
+    font-size: 1.1rem;
+  }
+  svg {
+    position: fixed;
+    z-index: 99;
+    left: 5.2rem;
+    bottom: 10px;
+    color: $light-white;
+    transform: rotate(-90deg);
   }
 }

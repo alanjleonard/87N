@@ -1,24 +1,32 @@
- @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Enriqueta&family=Homemade+Apple&family=Luckiest+Guy&family=Playfair+Display&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Enriqueta&family=Homemade+Apple&family=Luckiest+Guy&family=Playfair+Display&display=swap");
 
 :root {
-    font-size: 62.5%;
-    background-color: $black;
-    color: $white;
+  font-size: 62.5%;
+  color: $white;
 }
 // font-family: 'Abril Fatface', serif;
 // font-family: 'Enriqueta', serif;
-// font-family: 'Homemade Apple', cursive;
-// font-family: 'Luckiest Guy', cursive;
 // font-family: 'Playfair Display', serif;
-body, button, input, select, textarea {
-    font-family: 'Playfair Display', serif;
-    font-size: $font-size;
-    line-height: $line-height;
-    font-variation-settings: 'wght' 300;
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Enriqueta", serif;
+  font-size: $font-size;
+  line-height: $line-height;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Abril Fatface', serif;
-    // font-family: 'Enriqueta', serif;
-    // font-variation-settings: 'wght' 375;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface", serif;
+  // font-family: 'Homemade Apple', cursive;
+  // text-transform: lowercase;
+  // font-family: 'Playfair Display', serif;
+  // font-family: 'Enriqueta', serif;
+  // font-variation-settings: 'wght' 375;
 }

@@ -12,11 +12,11 @@
           {
             "name": "Fizzers",
             "descp": "Fizzy water in cans",
-            "list": ["Usually grapefruit", "or orange"]
+            "list": ["Usually grapefruit", "Sometimes orange"]
           },
           {
             "name": "AL's BEST Water",
-            "descp": "1 liter of the best icy lemon water you've ever had. Guaranteed."
+            "descp": "ONE liter of the best icy lemon water you've ever had. Guaranteed."
           }
         ]
       }
@@ -62,6 +62,9 @@
           },
           {
             "name": "Pour Over"
+          },
+          {
+            "name": "Instant"
           },
           {
             "name": "Bodum",

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Enriqueta&family=Homemade+Apple&family=Luckiest+Guy&family=Playfair+Display&display=swap");
 *, *:before, *:after {
   box-sizing: border-box;
@@ -344,49 +345,128 @@ template {
 
 :root {
   font-size: 62.5%;
-  background-color: #31383a;
   color: #fdfefa;
 }
 
-body, button, input, select, textarea {
-  font-family: "Playfair Display", serif;
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Enriqueta", serif;
   font-size: 2.5rem;
   line-height: 1;
-  font-variation-settings: "wght" 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Abril Fatface", serif;
 }
 
+body,
+html {
+  background: #101a23;
+}
+
+h1 {
+  text-align: center;
+  white-space: nowrap;
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  position: fixed;
+  left: 0px;
+  width: 100vh;
+  top: 100vh;
+  height: 6.5rem;
+  margin: 0;
+  background: #101a23;
+  color: #fdfefa88;
+}
+h1::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: -1px;
+  width: 100vh;
+  height: 5px;
+  background-image: linear-gradient(-45deg, #101a23 25%, #fdfefa88 25%, #fdfefa88 50%, #101a23 50%, #101a23 75%, #fdfefa88 75%);
+  background-size: 10px 10px;
+}
+h1 span {
+  color: #fdfefa;
+}
+
 main {
-  margin: 0 auto;
-  max-width: 96rem;
+  margin: 0 auto 0 6.5rem;
+  max-width: 40rem;
 }
 main section {
-  background: #995533;
+  margin: 1.5rem 0;
 }
 main section div {
-  background: rgba(192, 192, 192, 0.3);
+  margin: 3rem 0;
+}
+main section h2 {
+  margin: 0;
+  padding: 1.5rem;
+  background-image: linear-gradient(45deg, #101a23 25%, #fdfefa88 25%, #fdfefa88 50%, #101a23 50%, #101a23 75%, #fdfefa88 75%);
+  background-size: 10px 10px;
+  background-attachment: fixed;
+  border-style: solid;
+  border-width: 0px 0;
+  border-color: #fdfefa;
+  color: #fdfefa;
+  margin: 2px 0;
+}
+main section h2 span {
+  background-color: #101a23;
+  margin: 0 auto;
+  display: inline-block;
+  height: 100%;
+  color: #fdfefa88;
+  padding: 0.75rem 1.5rem;
 }
 main section h3 {
-  font-size: larger;
-  margin-bottom: 0;
+  color: #fdfefa;
+  padding: 1.5rem;
+  margin: 0px 0;
 }
 main section p {
-  margin: 0;
+  margin: 0 1.5rem 0.75rem 1.5rem;
+  font-size: 1.6rem;
+  color: #fdfefa88;
+  border-style: dotted;
+  border-width: 0 0 2px 0;
+  border-color: #fdfefa88;
 }
 main section ul {
-  padding: 0;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
+  list-style-type: "➽";
 }
 main section ul li {
-  flex-grow: 1;
-  text-align: center;
-  border: solid 1px;
-  padding: 0.5rem;
+  color: #fdfefa88;
+  font-size: 2rem;
+  margin: 0.75rem 0;
+}
+
+footer {
+  margin: 0 auto 0 6.5rem;
+  max-width: 40rem;
+  padding: 1.5rem;
+}
+footer p {
+  font-size: 1.1rem;
+}
+footer svg {
+  position: fixed;
+  z-index: 99;
+  left: 5.2rem;
+  bottom: 10px;
+  color: #fdfefa88;
+  transform: rotate(-90deg);
 }
 
 /*# sourceMappingURL=main.css.map */
