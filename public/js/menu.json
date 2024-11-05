@@ -10,11 +10,6 @@
             "list": ["Lemon", "Ice"]
           },
           {
-            "name": "Fizzers",
-            "descp": "Fizzy water in cans",
-            "list": ["Grapefruit"]
-          },
-          {
             "name": "AL's BEST Water",
             "descp": "ONE liter of the best icy lemon water you've ever had. Guaranteed."
           }
@@ -29,19 +24,10 @@
             "name": "Beer",
             "descp": "Fermented barley and hops",
             "list": [
-              "Probably Steam Whistles (steamies)",
-              "Assorted tall cans in the fridge"
-            ]
-          },
-          {
-            "name": "Wine",
-            "descp": "Old grapes",
-            "list": [
-              "Usually some Sibling Rivalry",
-              "Maybe some white in the fridge"
+	      "Check the fridge"
             ]
           }
-        ]
+	]
       }
     },
     {
@@ -54,12 +40,12 @@
             "list": ["Short", "Long"]
           },
           {
-            "name": "Long Black",
+            "name": "Long Black ",
             "descp": "Like a small Americano",
             "iced": true
           },
           {
-            "name": "Americano",
+            "name": "Americano ",
             "descp": "Like a bigger Long Black",
             "iced": true
           },
@@ -68,28 +54,24 @@
             "descp": "Hot water <em>poured over</em> coffee"
           },
           {
-            "name": "Instant",
-            "descp": "I don't know why"
-          },
-          {
             "name": "Bodum",
-            "descp": "What I call a French Press"
+            "descp": "Also called a French Press"
           },
           {
-            "name": "Latte",
+            "name": "Latte ",
             "descp": "coffee and steamed milk",
             "iced": true
           },
           {
-            "name": "Cortado",
+            "name": "Cortado ",
             "descp": "coffee and steamed milk"
           },
           {
-            "name": "Flat White",
+            "name": "Flat White ",
             "descp": "coffee and steamed milk"
           },
           {
-            "name": "Cappuccino",
+            "name": "Cappuccino ",
             "descp": "coffee and steamed milk"
           }
         ]
@@ -102,7 +84,7 @@
           {
             "name": "Tea Tea",
             "descp": "Actually tea",
-            "list": ["Regular (orange pekoe)", "Green"]
+            "list": ["Regular (orange pekoe)", "White", "Jasmine","Green","Eral Grey"]
           },
           {
             "name": "Herbal",
@@ -110,14 +92,9 @@
             "list": [
               "Licorice",
               "Peppermint",
-              "Ginger",
+	      "Chamomile",
               "Probably some other ones too"
             ]
-          },
-          {
-            "name": "Matcha Latte",
-            "descp": "Ground up green tea and steamed milk (<em>V fancy</em>)",
-            "iced": true
           }
         ]
       }

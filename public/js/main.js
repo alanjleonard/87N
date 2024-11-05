@@ -1,5 +1,5 @@
-fetch("https://lnrd.online/wp-content/uploads/menu.json")
-  // fetch("./js/menu.json")
+// fetch("https://lnrd.online/wp-content/uploads/menu.json")
+  fetch("./js/menu.json")
   .then((response) => response.json())
   .then((data) => {
     // Get the template from the script tag
